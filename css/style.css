@@ -187,6 +187,23 @@ h6,
     }
 }
 
+/* break Name for smaller screens */
+.large-screen {
+    display: inline;
+}
+.small-screen {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    .large-screen {
+        display: none;
+    }
+    .small-screen {
+        display: inline;
+    }
+}
+
 
 /*** Header ***/
 .carousel-caption {
